@@ -1,4 +1,5 @@
-#navbar-blue {
+#navbar {
+  overflow: hidden;
   background-image: none;
   background-color: #89CFF0;
 }
