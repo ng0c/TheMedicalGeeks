@@ -9,3 +9,15 @@
 #navbarDropdownMenuLink {
   color: white;
 }
+#sub-head {
+  width: 100%;
+	height: 100px;
+  background-color: #89CFF0;
+}
+#sub-head h6 {
+  font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	font-size:30px;
+  padding-top: 31px;
+}
