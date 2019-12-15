@@ -1,6 +1,11 @@
-#navbar {
-  padding-left: 850px;
+#navbar-blue {
+  background-image: none;
+  background-color: #89CFF0;
 }
-#header {
-  background-color: #00BFFF;
+#tiitle {
+  color: white;
+  padding-right: 850px;
+}
+#navbarDropdownMenuLink {
+  color: white;
 }
