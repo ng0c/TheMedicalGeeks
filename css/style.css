@@ -5,7 +5,10 @@
 
 #title {
   color: white;
-  padding-right: 850px;
+}
+
+#navbarNavDropdown {
+  justify-content: flex-end;
 }
 
 #navbarDropdownMenuLink {
