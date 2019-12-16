@@ -29,6 +29,13 @@
   padding-top: 31px;
 }
 
+#card-deck {
+  flex-direction: row;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 .footer {
   padding: 40px 0;
   background: #48BAF0;
