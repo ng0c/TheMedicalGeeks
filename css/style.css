@@ -44,6 +44,27 @@
   margin-left: 1em;
 }
 
+#ouraim_img,
+#ouraimbanner {
+  width:100%;
+  height:100%;
+}
+#ouraimbanner {
+  margin-bottom: 3em;
+}
+
+#storyhead {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 3em;
+}
+
+#storyhead p {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
 .footer {
   padding: 30px 0;
   background: #48BAF0;
