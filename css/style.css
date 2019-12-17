@@ -29,6 +29,18 @@
   padding-top: 31px;
 }
 
+#card-deck {
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  flex-direction: row;
+}
+
+#card-deck img {
+  height: 50%;
+  width: 50%;
+  padding-left: 20px;
+}
 
 .footer {
   padding: 30px 0;
@@ -58,12 +70,12 @@
 .footer__copy,
 .footer__author {
   display: inline-block;
-  padding: 10px 20px;
 }
 
 .footer__content {
   display: inline-block;
   background-color: #48BAF0;
+  padding: 10px 20px;
 }
 
 .footer__nav,
