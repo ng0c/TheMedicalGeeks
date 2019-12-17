@@ -267,7 +267,9 @@ section .section-title {
 }
 
 .frontside .card .card-body img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 50%;
 }
