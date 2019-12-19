@@ -1,5 +1,4 @@
 /* this section is home page */
-
 #navbar {
   background-image: none;
   background-color: #48BAF0;
@@ -85,7 +84,7 @@
   margin-top: 0.5em;
   margin-left: 1em;
 }
-
+/*""*/
 
 /* this section is our aim page */
 #ouraim_img,
@@ -126,8 +125,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+/*""*/
 
-/* this section is footer for all pages */
+/* this section is the footer for all pages */
 .footer {
   padding: 30px 0;
   background: #48BAF0;
@@ -184,6 +184,7 @@
   display: inline-block;
   padding: 0 10px;
 }
+/*""*/
 
 /* this section is meet the team */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -316,3 +317,4 @@ section .section-title {
     padding-left: 10px;
     border-radius: 50%;
 }
+/*""*/
