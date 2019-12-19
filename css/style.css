@@ -330,6 +330,9 @@ section .section-title {
 /*""*/
 
 /* This section of for bmat service */
+#bmat-head {
+  align-self: stretch;
+}
 .column {
   float: left;
   width: 33.33%;
