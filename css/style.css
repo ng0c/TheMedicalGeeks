@@ -1,8 +1,8 @@
 /* this section is home page */
-/* #48BAF0 is old background colour */ 
+/* #48BAF0 is old background colour */
 #navbar {
   background-image: none;
-  background-color: #8FC1E3 
+  background-color: #8FC1E3
 }
 
 #title {
@@ -72,6 +72,13 @@
   flex-direction: row;
   margin-bottom: 3em;
 }
+
+#button {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
 
 #card-deck img {
   height: 50%;
@@ -143,7 +150,7 @@
 /* this section is the footer for all pages */
 .footer {
   padding: 30px 0;
-  background: #48BAF0;
+  background: #8FC1E3;
   font-size: 15px;
   color: #fff;
   text-align: center;
@@ -172,7 +179,7 @@
 
 .footer__content {
   display: inline-block;
-  background-color: #48BAF0;
+  background-color: #8FC1E3;
   padding: 10px 20px;
 }
 
