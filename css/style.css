@@ -19,7 +19,7 @@
 
 #sub-head {
   width: 100%;
-	height: 100px;
+	height: 140px;
   background-color: #8FC1E3;
 }
 #filler {
@@ -32,9 +32,9 @@
   font-weight: bold;
 	text-align: center;
 	color: #FFF;
-	font-size: 30px;
+	font-size: 40px;
   font-family: "arial";
-  padding-top: 31px;
+  padding-top: 45px;
 }
 
 #sub-head h7 {
@@ -88,11 +88,11 @@
 }
 
 #card-deck2 {
-  margin-top: 4.5em;
+  margin-top: 7em;
   margin-left: 3em;
   margin-right: 3em;
   flex-direction: row;
-  margin-bottom: 3em;
+  margin-bottom: 7em;
 }
 
 #card-deck2 img {
