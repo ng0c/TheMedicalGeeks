@@ -2,7 +2,7 @@
 /* #48BAF0 is old background colour */
 #navbar {
   background-image: none;
-  background-color: #8FC1E3
+  background-color: #8FC1E3;
 }
 
 #title {
@@ -346,9 +346,18 @@ section .section-title {
 
 /* This section of for bmat service */
 #bmat-head {
-  align-self: stretch;
+
 }
 
+#bmat-divider {
+
+}
+
+#bmat-cards {
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+}
 
 .column {
   float: left;
