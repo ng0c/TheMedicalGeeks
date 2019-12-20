@@ -330,7 +330,7 @@ section .section-title {
 #anita-card {
   display: block;
   margin-left: auto;
-  margin-right: auto 
+  margin-right: auto
 }
 /*""*/
 
@@ -338,6 +338,7 @@ section .section-title {
 #bmat-head {
   align-self: stretch;
 }
+
 
 .column {
   float: left;
