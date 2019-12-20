@@ -351,12 +351,12 @@ section .section-title {
 /*""*/
 
 /* This section of for bmat service */
-#bmat-head {
-
-}
-
-#bmat-divider {
-
+#bmat-header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: gray;
+  margin-top: 1em;
 }
 
 #bmat-cards {
