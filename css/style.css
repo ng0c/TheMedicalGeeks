@@ -355,9 +355,24 @@ section .section-title {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  color: gray;
+  color: #696969;
   margin-top: 2em;
-  padding-top: 30px;
+}
+
+#bmat-header2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #696969;
+  padding-top: 70px;
+}
+
+#bmat-header3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #696969;
+  margin-top: 2em;
 }
 
 #bmat-cards {
@@ -378,7 +393,7 @@ section .section-title {
 #bmat-deck {
   flex-direction: row;
   background: #f7f9fb;
-  padding: 80px 80px 80px 80px;
+  padding: 50px 80px 80px 80px;
 }
 
 #button {
@@ -399,6 +414,7 @@ section .section-title {
 #picture-deck {
   margin-left: 2em;
   margin-right: 2em;
+  margin-top: 3em;
 }
 
 .column {
