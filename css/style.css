@@ -397,6 +397,11 @@ section .section-title {
   width: 50%;
 }
 
+#picture-deck {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -407,4 +412,10 @@ section .section-title {
   content: "";
   clear: both;
   display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
