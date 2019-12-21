@@ -357,6 +357,7 @@ section .section-title {
   font-weight: bold;
   color: gray;
   margin-top: 2em;
+  padding-top: 30px;
 }
 
 #bmat-cards {
@@ -375,11 +376,9 @@ section .section-title {
 }
 
 #bmat-deck {
-  margin-top: 3em;
-  margin-left: 3em;
-  margin-right: 3em;
   flex-direction: row;
-  margin-bottom: 7em;
+  background: #f7f9fb;
+  padding: 80px 80px 80px 80px;
 }
 
 #button {
