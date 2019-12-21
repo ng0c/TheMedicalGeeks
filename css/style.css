@@ -356,7 +356,11 @@ section .section-title {
   font-size: 40px;
   font-weight: bold;
   color: #696969;
-  margin-top: 2em;
+  margin-top: 1em;
+}
+#bmat-divider {
+  height: 100px;
+
 }
 
 #bmat-header2 {
