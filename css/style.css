@@ -494,3 +494,21 @@ section .section-title {
   margin-right: auto;
   width: 50%;
 }
+
+#reviews-header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #696969;
+  margin-top: 1em;
+}
+
+#review_card {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 3em;
+}
+
+#card_container {
+  background: #f7f9fb;
+}
