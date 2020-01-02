@@ -510,8 +510,9 @@ section .section-title {
   margin-left: 3em;
   margin-right: 3em;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-#card_container {
-  background: #f7f9fb;
+hr {
+  border-top: 1px;
 }
