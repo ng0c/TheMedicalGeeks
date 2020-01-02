@@ -516,3 +516,14 @@ section .section-title {
 hr {
   border-top: 1px;
 }
+/*""*/
+
+/* This section is for FAQs */
+#faq-card-deck {
+  text-align: center;
+}
+
+#faq-head {
+  text-align: center;
+  margin-top: 3em;
+}
