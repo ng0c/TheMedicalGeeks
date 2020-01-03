@@ -53,6 +53,41 @@
     </div>
   </nav>
 
+  <div>
+    <img src="images/technical.png">
+  </div>
+
+  <div id="societies-head">
+    <h1>Frequently Asked Questions</h1>
+  </div>
+
+  <button class="accordion">What software do you use for the mock interviews?</button>
+  <div class="panel">
+    <p>We use Skype because its free and can be used for a load of devices! If you cannot use this, contact us and we can try and use another application for you</p>
+  </div>
+
+  <button class="accordion">I can't get access to the guide after payment</button>
+  <div class="panel">
+    <p>Let us know themedicalgeeks@gmail.com and we'll get to it ASAP for you!</p>
+  </div>
+
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
   <footer class="footer">
     <div class="container" id="footer.c">
       <div class="row">
