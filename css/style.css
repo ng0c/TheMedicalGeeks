@@ -523,7 +523,26 @@ hr {
   text-align: center;
 }
 
+#faq-card-deck img {
+  height: 50%;
+  margin-top: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+#faq-card-deck h4 {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
 #faq-head {
   text-align: center;
   margin-top: 3em;
+}
+
+#faq-head p {
+  font-size: 30px;
 }
