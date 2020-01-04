@@ -38,6 +38,19 @@
   padding-top: 45px;
 }
 
+.bottom-arrow:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid #8FC1E3;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
 #sub-head h7 {
   font-weight: bold;
 	color: #FFF;
@@ -555,6 +568,7 @@ hr {
   margin-top: 3em;
   margin-bottom: 3em;
 }
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
@@ -592,8 +606,4 @@ hr {
   color: #777;
   float: right;
   margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
