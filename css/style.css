@@ -484,6 +484,12 @@ section .section-title {
   margin-right: auto;
   width: 50%;
 }
+
+#filler2 {
+  width:100%;
+  height: 20px;
+  background-color: #f7f9fb;
+}
 /*""*/
 
 /* This section is for reviews */
