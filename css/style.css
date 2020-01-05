@@ -718,3 +718,70 @@ hr {
   float: right;
   margin-left: 5px;
 }
+
+/* This section is for T&C */
+#tnc-header h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#tnc-header h2 {
+  font-size: 20px;
+  font-family: arial;
+}
+
+#first-paragraph {
+  font-family: arial;
+  background-color: #f7f9fb;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#text-content ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  line-height: 2;
+}
+
+#text-content li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+#text-content li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em;
+}
+
+#text-content li li {
+    margin: 0;
+}
+
+#text-content li li:before {
+    content: counters(item, ".") " ";
+}
+
+#disclaimer {
+  direction: ltr;
+  background-color: #f7f9fb;
+  font-family: arial;
+  margin-top: 2em;
+}
+
+#disclaimer h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#text-block {
+  justify-content: center;
+  margin-top: 5em;
+}
