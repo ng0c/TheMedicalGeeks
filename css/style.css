@@ -810,3 +810,14 @@ form .submit:hover
   cursor: pointer;
   
 }
+
+/* Payments page */ 
+
+#payments {
+  text-align: center;
+  margin-top: 3em;
+}
+
+#payments p {
+  font-size: 18px;
+}
