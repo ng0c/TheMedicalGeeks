@@ -158,18 +158,19 @@
 }
 
 #card-deck-ouraim {
-  margin-top: 3em;
-  margin-left: 3em;
-  margin-right: 3em;
-  flex-direction: row;
   text-align: center;
-  margin-bottom: 4em;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+@media screen and (max-width:768px) {
 }
 
 #card-deck-ouraim img {
   height: 30%;
   width: 30%;
   margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-right: auto;
   margin-left: auto;
 }
@@ -764,7 +765,7 @@ hr {
   margin-top: 5em;
 }
 
-/* Contact us page */ 
+/* Contact us page */
 
 #contact-title{
   margin: 0;
@@ -801,17 +802,17 @@ form .submit {
   letter-spacing: 2px;
   height: 50px;
   margin-top:20px;
-  
+
 }
 
 form .submit:hover
 {
   background-color: #95d6f5;
   cursor: pointer;
-  
+
 }
 
-/* Payments page */ 
+/* Payments page */
 
 #payments {
   text-align: center;
