@@ -95,7 +95,8 @@
 #button {
   display: block;
   max-width: 300px;
-  margin: auto;
+  margin: 5%;
+  
 }
 
 #card-deck img {
@@ -104,7 +105,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 #card-deck2 {
@@ -476,12 +477,6 @@ section .section-title {
   flex-direction: row;
   background: #f7f9fb;
   padding: 50px 80px 80px 80px;
-}
-
-#button {
-  display: block;
-  max-width: 300px;
-  margin: auto;
 }
 
 #bmat-deck img {
