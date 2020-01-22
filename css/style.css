@@ -83,11 +83,39 @@
 	font-size:30px;
   padding-top: 31px;
 }
+#index-cards{
+  display: inline-flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+#index-card {
+  display: inline-flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+#index-deck {
+  flex-direction: row;
+    background: #f7f9fb;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#index-deck img{
+  height: 50%;
+  margin-top: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
 #card-deck {
   margin-top: 7em;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 3em;
+  margin-right: 3em;
   flex-direction: row;
   margin-bottom: 7em;
 }
