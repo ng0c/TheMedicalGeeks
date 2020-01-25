@@ -845,7 +845,7 @@ form .submit:hover
 
 /*trial */
 .leadh1{
-  color: #4fb7e9;
+  color: #1ba4e4;
     font-weight: 400;
     font-size: 38px;
     margin-bottom: 8px;
@@ -859,8 +859,10 @@ form .submit:hover
 }
 
 .supercharge {
-  width: 40%;
+  width: 60%;
   vertical-align: middle;
+  max-width: 100%;
+  
 }
 
 .banner {
@@ -882,6 +884,7 @@ form .submit:hover
     font: 15px avenir next,helvetica neue,Helvetica,Arial,sans-serif;
     color: #78ccf3;
     padding-bottom: 15px;
+    padding-top: 35px;
 }
 
 .mouse:after {
@@ -905,4 +908,10 @@ form .submit:hover
       opacity: 0;
       top:30px; 
 }
+}
+
+#filler3 {
+  width:100%;
+  height: 40px;
+  background-color: #E9F7FF;
 }
