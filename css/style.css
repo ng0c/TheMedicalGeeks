@@ -504,6 +504,7 @@ section .section-title {
 
 }
 
+
 #bmat-deck img {
   height: 50%;
   margin-top: 0.5em;
@@ -849,7 +850,7 @@ form .submit:hover
   color: #4fb7e9;
     font-weight: 400;
     font-size: 38px;
-    margin-bottom: 28px;
+    margin-bottom: 8px;
     font-weight: bold;
 }
 .leadp{
@@ -882,6 +883,7 @@ form .submit:hover
     text-align: center;
     font: 15px avenir next,helvetica neue,Helvetica,Arial,sans-serif;
     color: #78ccf3;
+    padding-bottom: 15px;
 }
 
 .mouse:after {
