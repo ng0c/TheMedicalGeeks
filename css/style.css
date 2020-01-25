@@ -698,7 +698,7 @@ hr {
   border: none;
   outline: none;
   transition: 0.4s;
-  margin-left: 4em;
+
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -713,9 +713,10 @@ hr {
   display: none;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  width: 91%;
-  margin-left: 4em;
+  text-align: left;
+  width: 100%;
   margin-top: 1em;
+  text-align: left;
 }
 
 .accordion:after {
@@ -850,4 +851,40 @@ form .submit:hover
 
 #payments p {
   font-size: 18px;
+}
+
+/*trial */
+
+.supercharge {
+  width: 40%;
+  vertical-align: middle;
+}
+
+.banner {
+  background: #ffffff;
+  padding-top: 40px;
+}
+
+.mouse {
+  display: inline-block;
+  width: 35px;
+  height: 55px;
+  border-radius: 15px;
+  border: 2px solid #eee;
+  text-align: center;
+}
+
+.mouse:after {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  background-color: #eee;
+  border-radius: 50%;
+  content: "";
+  animation-name: mousescroll;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+
 }
