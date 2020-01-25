@@ -503,7 +503,15 @@ section .section-title {
   padding-right: 25%
 
 }
-#50px 80px 80px 80px; 
+
+#bmat-card-img {
+  height: auto;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  
+}
 
 #bmat-deck img {
   height: 50%;
