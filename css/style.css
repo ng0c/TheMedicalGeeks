@@ -48,7 +48,7 @@
     margin: 0 auto;
     width: 0;
     height: 0;
-    border-top: 28px solid #8FC1E3;
+    border-top: 2px solid #8FC1E3;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
 }
@@ -493,7 +493,7 @@ section .section-title {
   justify-content: center;
   justify-content: space-around;
   margin-top: 1em;
-  margin-bottom: 5em;
+  
 }
 
 #bmat-deck {
@@ -502,15 +502,6 @@ section .section-title {
   padding-left: 25%;
   padding-right: 25%
 
-}
-
-#bmat-card-img {
-  height: auto;
-  margin-top: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  
 }
 
 #bmat-deck img {
