@@ -119,7 +119,7 @@
   margin-left: auto;
   margin-right: auto;
   align-self: center;
-  
+
 }
 
 #card-deck img {
@@ -493,7 +493,7 @@ section .section-title {
   justify-content: center;
   justify-content: space-around;
   margin-top: 1em;
-  
+
 }
 
 #bmat-deck {
@@ -689,7 +689,6 @@ hr {
   border: none;
   outline: none;
   transition: 0.4s;
-
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -862,7 +861,7 @@ form .submit:hover
   width: 60%;
   vertical-align: middle;
   max-width: 100%;
-  
+
 }
 
 .banner {
@@ -878,7 +877,7 @@ form .submit:hover
   border: 2px solid#78ccf3;
   text-align: center;
 }
-.learnmore { 
+.learnmore {
   margin: 20px 0 30px;
     text-align: center;
     font: 15px avenir next,helvetica neue,Helvetica,Arial,sans-serif;
@@ -900,13 +899,13 @@ form .submit:hover
 }
 
 @keyframes mouse {
-    0% { 
+    0% {
       opacity: 1;
       top: 1px;
 }
-    100% { 
+    100% {
       opacity: 0;
-      top:30px; 
+      top:30px;
 }
 }
 
