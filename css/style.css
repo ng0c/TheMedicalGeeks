@@ -29,6 +29,7 @@ body {
   width: 100%;
 	height: 65px;
   background-color: #8FC1E3;
+  padding-top: 15px;
 }
 
 #sub-head h6 {
@@ -858,7 +859,7 @@ form .submit:hover
 }
 
 .supercharge {
-  width: 60%;
+  width: 50%;
   vertical-align: middle;
   max-width: 100%;
 
