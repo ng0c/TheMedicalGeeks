@@ -1,5 +1,13 @@
 /* this section is home page */
 /* #48BAF0 is old background colour */
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 #navbar {
   background-image: none;
   background-color: #8FC1E3;
@@ -21,21 +29,33 @@
   width: 100%;
 	height: 65px;
   background-color: #8FC1E3;
-}
-
-#filler {
-  width:100%;
-  height: 20px;
-  background-color: white;
+  padding-top: 15px;
 }
 
 #sub-head h6 {
   font-weight: bold;
 	text-align: center;
-	color: #FFF;
-	font-size: 27px;
+	color: #E9F7FF;
+	font-size: 35px;
   font-family: "arial";
   padding-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sub-head1 {
+  width: 100%;
+	height: 65px;
+  background-color: #E9F7FF;
+}
+
+#sub-head1 h6 {
+  font-weight: bold;
+	text-align: center;
+	color: #1ba4e4;
+	font-size: 35px;
+  font-family: "arial";
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,46 +76,25 @@
 #instagram-feed {
   width: 100%;
 	height: 100px;
-  background-color: #8FC1E3;
+  background-color: #E9F7FF;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
-	color: #FFF;
+	color: #1ba4e4;
 	font-size:30px;
   padding-top: 31px;
 }
 
-#instagram-feed2 {
-  width: 100%;
-	height: 50px;
-  background-color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-	color: #FFF;
-	font-size:30px;
-  padding-top: 31px;
-}
-#index-cards{
-  display: inline-flex;
-  justify-content: center;
-  justify-content: space-around;
-  margin-top: 1em;
-}
-
-#index-card {
-  display: inline-flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin-top: 1em;
-    margin-bottom: 5em;
-}
 #index-deck {
   flex-direction: row;
-    background: #f7f9fb;
-    padding-left: 8%;
-    padding-right: 8%;
+    background-color: #8FC1E3;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0,0,0,0;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
+
 #index-deck img{
   height: 50%;
   margin-top: 0.5em;
@@ -119,7 +118,7 @@
   margin-left: auto;
   margin-right: auto;
   align-self: center;
-  
+
 }
 
 #card-deck img {
@@ -132,11 +131,12 @@
 }
 
 #card-deck2 {
-  margin-top: 7em;
-  margin-left: 3em;
-  margin-right: 3em;
   flex-direction: row;
-  margin-bottom: 7em;
+  background-color: #E9F7FF;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #card-deck2 img {
@@ -493,7 +493,7 @@ section .section-title {
   justify-content: center;
   justify-content: space-around;
   margin-top: 1em;
-  
+
 }
 
 #bmat-deck {
@@ -597,8 +597,9 @@ section .section-title {
 
 /* This section is for reviews */
 #stats_cards {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  background-color: #8FC1E3;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #stats_cards h4 {
@@ -689,7 +690,6 @@ hr {
   border: none;
   outline: none;
   transition: 0.4s;
-
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -859,10 +859,10 @@ form .submit:hover
 }
 
 .supercharge {
-  width: 60%;
+  width: 50%;
   vertical-align: middle;
   max-width: 100%;
-  
+
 }
 
 .banner {
@@ -878,7 +878,7 @@ form .submit:hover
   border: 2px solid#78ccf3;
   text-align: center;
 }
-.learnmore { 
+.learnmore {
   margin: 20px 0 30px;
     text-align: center;
     font: 15px avenir next,helvetica neue,Helvetica,Arial,sans-serif;
@@ -900,13 +900,13 @@ form .submit:hover
 }
 
 @keyframes mouse {
-    0% { 
+    0% {
       opacity: 1;
       top: 1px;
 }
-    100% { 
+    100% {
       opacity: 0;
-      top:30px; 
+      top:30px;
 }
 }
 
